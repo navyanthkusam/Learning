@@ -1,3 +1,4 @@
+
 Machine Learning Notebooks
 ==========================
 
@@ -118,3 +119,7 @@ Congrats! You are ready to learn Machine Learning, hands on!
 
 # Contributors
 I would like to thank everyone who contributed to this project, either by providing useful feedback, filing issues or submitting Pull Requests. Special thanks go to Steven Bunkley and Ziembla who created the `docker` directory.
+
+
+Credits to this guy ageron https://github.com/ageron/handson-ml.git
+I just used your content ageron . thanks for providing it
