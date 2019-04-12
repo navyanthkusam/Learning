@@ -30,20 +30,27 @@ ssh-keygen -t rsa -b 4096 -C "navyanthkusam@gmail.com"                          
 eval $(ssh-agent -s)                                                                                       # start the ssh-agent in the background
 ssh-add ~/.ssh/id_rsa                                                                                      # Add your SSH private key to the ssh-agent
 clip < ~/.ssh/id_rsa.pub                                                                                   # Copies the contents of the id_rsa.pub file to your clipboard
- 
-git remote add origin "git@github.com:navyanthkusam/materialModeling.git"
-git checkout Development
+
+
+
+
+git clone https://github.com/navyanthkusam/Learning.git
 git pull                           
 
-git add newfileLocal.txt                                                                                 # Adds the files in the local repository and stages them for commit.
-                                                                                                         # To unstage a file, use 'git reset HEAD YOUR-FILE'.
-git commit -m "my first commit"
-git push origin master                                                                     # Commits the tracked changes and prepares them to be pushed to a remote repository. 
-                                                                                           #To remove this commit and modify the file, use 'git reset --soft HEAD~1' 
+# add the change.txt file
+git add change.txt
+git commit 
+git push origin 
 
-git checkout Development                                                                    #to different branch
- 
+git branch developmet            # make new development branch in local computer
+git checkout development         # switch to local development branch
+git add changeinLocalDevelopmentBranch.txt
+git commit
 
+git checkout master  #local master branch 
+git merge development # merge the local development branch to local master branch
+
+git push origin # new hanges made in local master/origin to master banch in online repository
 
 
 
