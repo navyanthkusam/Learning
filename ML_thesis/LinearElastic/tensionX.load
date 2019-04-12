@@ -1,0 +1,4 @@
+#tensionX_test2
+
+fdot 1.0e-1 0 0  0 * 0   0 0 *  stress  * * *   * 0 *   * * 0  time 1  incs 10 freq 1   
+
