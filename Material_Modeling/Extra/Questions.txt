@@ -1,0 +1,42 @@
+
+1. Get comfortable with damage simulations in Damask
+
+Basically to set up a damage simulations i need to look at what parameters i need to consider for different damage models. Make geometry file an load file. 
+
+2. Understand the theory for plasticity
+
+3. Understand the theory for phase field damage
+
+4. Understand the working of spectral solver in damask
+
+5. Write a code from scratch to couple both crystal plasticity and phase field
+
+A) Geometry to be taken from the fixed input file. Give the coordinate of all 64 points manually
+
+B) boundary conditions need to be fixed and defined at nodes
+
+C) solver ? 
+
+D) stress response model from 
+   a) elastic
+   b) plastic
+   c) damage
+
+
+Need modules
+1. vector
+2. Tensor
+3. Node
+4. Element
+5. Mesh
+6. Elastic
+7. Plastic
+8. Damage
+9. Solver main program
+
+Source: ContinuumMechanics.org
+
+6. In Damask see how different parameters are effecting the simulation. Fix the damage model
+
+7. Convergence of solution when we vary Interfacial energy or length lc
+;;
