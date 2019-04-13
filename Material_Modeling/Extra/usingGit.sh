@@ -58,9 +58,9 @@ git push origin # new hanges made in local master/origin to master banch in onli
 git pull origin master
 
 
+# if it asks password and username everytime when we push to remote branch
 
-
-#git config --global credential.https://github.com.username <your_username>
+git config --global credential.https://github.com.username navyanthkusam
 
 
 
