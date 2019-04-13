@@ -60,7 +60,7 @@ git pull origin master
 
 
 
-
+#git config --global credential.https://github.com.username <your_username>
 
 
 
