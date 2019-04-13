@@ -2,7 +2,7 @@
 #!/bin/bash  
 
 #credits to :  https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
-
+# done using in laptop
 #Creating a local Repository and connecting it to Remote repository (online)
 # 1. To create a local repository Modeling
 # 2. Initialize the local directory as a Git repository.
