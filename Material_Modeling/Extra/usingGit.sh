@@ -52,7 +52,7 @@ git merge development # merge the local development branch to local master branc
 
 git push origin # new hanges made in local master/origin to master banch in online repository
 
-#if you make changes in local master branch and you want to pull the same data in the origin branch
+#if you make changes in local master branch and you want to pull the same data in the origin branch sd
 
 git pull origin master
 
