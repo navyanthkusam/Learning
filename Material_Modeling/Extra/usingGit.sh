@@ -63,7 +63,8 @@ git pull origin master
 git config --global credential.https://github.com.username navyanthkusam
 
 
-
+# if a fatal error is encountered during git pull use the following
+git config --global --unset http.proxy
 
 
 
