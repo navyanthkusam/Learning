@@ -1,6 +1,7 @@
 
 #!/bin/bash  
 
+# now the account is flagged why ?
 #credits to :  https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 # done using in laptop
 #Creating a local Repository and connecting it to Remote repository (online)
